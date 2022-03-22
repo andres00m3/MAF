@@ -8,48 +8,6 @@
 
 </mat-list> -->
 
-<!-- <mat-card class="card">
-    <mat-card-content>
-        <mat-list>
-            <div mat-subheader>Gastos</div>
-            <mat-list-item *ngFor="let tran of this.appService.getTransacciones()">
-
-                <div mat-line>
-
-
-                    <mat-chip color="warn" selected> - {{tran.monto | currency}}</mat-chip>
-
-
-                </div>
-                <mat-divider></mat-divider>
-                <div mat-line> {{tran.fecha | date }} </div>
-            </mat-list-item>
-
-        </mat-list>
-    </mat-card-content>
-</mat-card> -->
-
-
-<div class="card">
-    <mat-card class="card2" *ngFor="let tran of this.appService.getTransacciones()">
-        <div>
-            <mat-card-title> transacciones</mat-card-title>
-            <div>
-                <mat-card-subtitle class="red chipdirection">
-
-                    - {{tran.monto | currency}}
-
-                </mat-card-subtitle>
-
-            </div>
-
-            <mat-card-subtitle>{{tran.fecha | date}}</mat-card-subtitle>
-        </div>
-
-    </mat-card>
-</div>
-
-
 <div class="card">
     <mat-card class="card2" *ngFor="let tran of this.appService.getTransacciones()">
         <div>
