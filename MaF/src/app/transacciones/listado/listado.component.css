@@ -1,0 +1,34 @@
+.mat-list-icon {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.card {
+    max-width: 450px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.green {
+    background-color: #12F744;
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chipdirection {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.red {
+    color: #f33232;
+}
